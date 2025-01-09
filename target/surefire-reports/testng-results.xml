@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="76" passed="76" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-09T13:18:49 GMT+03:00" name="All Test Suite" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="15354">
+    <groups>
+    </groups>
+    <test started-at="2025-01-09T13:18:49 GMT+03:00" name="C:/Users/hasan/IdeaProjects/bookingAPI" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="15354">
+      <class name="test._1_PositiveTest._5_PatchBooking">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:01 GMT+03:00" name="setupData" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testBookingBody()[pri:4, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testBookingBody" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBody -->
+        <test-method signature="testBookingSchema()[pri:5, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testBookingSchema" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingSchema -->
+        <test-method signature="testFirstname()[pri:6, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testFirstname" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstname -->
+        <test-method signature="testLastname()[pri:7, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testLastname" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastname -->
+        <test-method signature="testTotalPrice()[pri:8, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testTotalPrice" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPrice -->
+        <test-method signature="testDepositpaid()[pri:9, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testDepositpaid" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositpaid -->
+        <test-method signature="testBookingDatesCheckIn()[pri:10, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testBookingDatesCheckIn" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckIn -->
+        <test-method signature="testBookingDatesCheckOut()[pri:11, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testBookingDatesCheckOut" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckOut -->
+        <test-method signature="testAdditionalNeeds()[pri:12, instance:test._1_PositiveTest._5_PatchBooking@4c1f22f3]" started-at="2025-01-09T13:19:02 GMT+03:00" name="testAdditionalNeeds" finished-at="2025-01-09T13:19:02 GMT+03:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionalNeeds -->
+      </class> <!-- test._1_PositiveTest._5_PatchBooking -->
+      <class name="test.HappyPath">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:49 GMT+03:00" name="setupData" finished-at="2025-01-09T13:18:49 GMT+03:00" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="CreateToken()[pri:1, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:49 GMT+03:00" name="CreateToken" finished-at="2025-01-09T13:18:52 GMT+03:00" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateToken -->
+        <test-method signature="PostBooking()[pri:2, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:52 GMT+03:00" name="PostBooking" finished-at="2025-01-09T13:18:53 GMT+03:00" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostBooking -->
+        <test-method signature="GetBookingById()[pri:3, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:53 GMT+03:00" name="GetBookingById" finished-at="2025-01-09T13:18:54 GMT+03:00" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingById -->
+        <test-method signature="GetBookingIds()[pri:4, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:54 GMT+03:00" name="GetBookingIds" finished-at="2025-01-09T13:18:55 GMT+03:00" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingIds -->
+        <test-method signature="UpdateBooking()[pri:5, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:55 GMT+03:00" name="UpdateBooking" finished-at="2025-01-09T13:18:56 GMT+03:00" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBooking -->
+        <test-method signature="PatchBooking()[pri:6, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:56 GMT+03:00" name="PatchBooking" finished-at="2025-01-09T13:18:57 GMT+03:00" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchBooking -->
+        <test-method signature="DeleteBooking()[pri:7, instance:test.HappyPath@6581dc0a]" started-at="2025-01-09T13:18:57 GMT+03:00" name="DeleteBooking" finished-at="2025-01-09T13:18:57 GMT+03:00" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBooking -->
+      </class> <!-- test.HappyPath -->
+      <class name="test._1_PositiveTest._6_DeleteBooking">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._1_PositiveTest._6_DeleteBooking@598bd2ba]" started-at="2025-01-09T13:19:02 GMT+03:00" name="setupData" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._1_PositiveTest._6_DeleteBooking@598bd2ba]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._1_PositiveTest._6_DeleteBooking@598bd2ba]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._1_PositiveTest._6_DeleteBooking@598bd2ba]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testBookingBody()[pri:4, instance:test._1_PositiveTest._6_DeleteBooking@598bd2ba]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testBookingBody" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBody -->
+        <test-method signature="testCreatedMessage()[pri:5, instance:test._1_PositiveTest._6_DeleteBooking@598bd2ba]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testCreatedMessage" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatedMessage -->
+      </class> <!-- test._1_PositiveTest._6_DeleteBooking -->
+      <class name="test._1_PositiveTest._4_UpdateBooking">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:00 GMT+03:00" name="setupData" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testBookingBody()[pri:4, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testBookingBody" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBody -->
+        <test-method signature="testBookingSchema()[pri:5, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testBookingSchema" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingSchema -->
+        <test-method signature="testFirstname()[pri:6, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testFirstname" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstname -->
+        <test-method signature="testLastname()[pri:7, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testLastname" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastname -->
+        <test-method signature="testTotalPrice()[pri:8, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testTotalPrice" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPrice -->
+        <test-method signature="testDepositpaid()[pri:9, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testDepositpaid" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositpaid -->
+        <test-method signature="testBookingDatesCheckIn()[pri:10, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testBookingDatesCheckIn" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckIn -->
+        <test-method signature="testBookingDatesCheckOut()[pri:11, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testBookingDatesCheckOut" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckOut -->
+        <test-method signature="testAdditionalNeeds()[pri:12, instance:test._1_PositiveTest._4_UpdateBooking@764faa6]" started-at="2025-01-09T13:19:01 GMT+03:00" name="testAdditionalNeeds" finished-at="2025-01-09T13:19:01 GMT+03:00" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionalNeeds -->
+      </class> <!-- test._1_PositiveTest._4_UpdateBooking -->
+      <class name="test._1_PositiveTest._2_CreateBooking">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:58 GMT+03:00" name="setupData" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testBookingBody()[pri:4, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testBookingBody" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBody -->
+        <test-method signature="testBookingSchema()[pri:5, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testBookingSchema" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingSchema -->
+        <test-method signature="testFirstname()[pri:6, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testFirstname" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstname -->
+        <test-method signature="testLastname()[pri:7, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testLastname" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastname -->
+        <test-method signature="testTotalPrice()[pri:8, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testTotalPrice" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPrice -->
+        <test-method signature="testDepositpaid()[pri:9, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testDepositpaid" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositpaid -->
+        <test-method signature="testBookingDatesCheckIn()[pri:10, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testBookingDatesCheckIn" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckIn -->
+        <test-method signature="testBookingDatesCheckOut()[pri:11, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testBookingDatesCheckOut" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckOut -->
+        <test-method signature="testAdditionalNeeds()[pri:12, instance:test._1_PositiveTest._2_CreateBooking@32c4e8b2]" started-at="2025-01-09T13:18:59 GMT+03:00" name="testAdditionalNeeds" finished-at="2025-01-09T13:18:59 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionalNeeds -->
+      </class> <!-- test._1_PositiveTest._2_CreateBooking -->
+      <class name="test._1_PositiveTest._3_GetBooking">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:18:59 GMT+03:00" name="setupData" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testBookingBody()[pri:4, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testBookingBody" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBody -->
+        <test-method signature="testBookingSchema()[pri:5, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testBookingSchema" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingSchema -->
+        <test-method signature="testFirstname()[pri:6, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testFirstname" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstname -->
+        <test-method signature="testLastname()[pri:7, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testLastname" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastname -->
+        <test-method signature="testTotalPrice()[pri:8, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testTotalPrice" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPrice -->
+        <test-method signature="testDepositpaid()[pri:9, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testDepositpaid" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositpaid -->
+        <test-method signature="testBookingDatesCheckIn()[pri:10, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testBookingDatesCheckIn" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckIn -->
+        <test-method signature="testBookingDatesCheckOut()[pri:11, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testBookingDatesCheckOut" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingDatesCheckOut -->
+        <test-method signature="testAdditionalNeeds()[pri:12, instance:test._1_PositiveTest._3_GetBooking@64bce832]" started-at="2025-01-09T13:19:00 GMT+03:00" name="testAdditionalNeeds" finished-at="2025-01-09T13:19:00 GMT+03:00" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionalNeeds -->
+      </class> <!-- test._1_PositiveTest._3_GetBooking -->
+      <class name="test._1_PositiveTest._1_CreateToken">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._1_PositiveTest._1_CreateToken@58326051]" started-at="2025-01-09T13:18:57 GMT+03:00" name="setupData" finished-at="2025-01-09T13:18:58 GMT+03:00" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._1_PositiveTest._1_CreateToken@58326051]" started-at="2025-01-09T13:18:58 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:18:58 GMT+03:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._1_PositiveTest._1_CreateToken@58326051]" started-at="2025-01-09T13:18:58 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:18:58 GMT+03:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._1_PositiveTest._1_CreateToken@58326051]" started-at="2025-01-09T13:18:58 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:18:58 GMT+03:00" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testBookingBody()[pri:4, instance:test._1_PositiveTest._1_CreateToken@58326051]" started-at="2025-01-09T13:18:58 GMT+03:00" name="testBookingBody" finished-at="2025-01-09T13:18:58 GMT+03:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBody -->
+        <test-method signature="testResponseBody()[pri:5, instance:test._1_PositiveTest._1_CreateToken@58326051]" started-at="2025-01-09T13:18:58 GMT+03:00" name="testResponseBody" finished-at="2025-01-09T13:18:58 GMT+03:00" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseBody -->
+        <test-method signature="testIsTokenString()[pri:6, instance:test._1_PositiveTest._1_CreateToken@58326051]" started-at="2025-01-09T13:18:58 GMT+03:00" name="testIsTokenString" finished-at="2025-01-09T13:18:58 GMT+03:00" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsTokenString -->
+      </class> <!-- test._1_PositiveTest._1_CreateToken -->
+      <class name="test._2_NegativeTests.Negative_2_CreateBooking_MissingValue">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3]" started-at="2025-01-09T13:19:03 GMT+03:00" name="setupData" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3]" started-at="2025-01-09T13:19:04 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3]" started-at="2025-01-09T13:19:04 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3]" started-at="2025-01-09T13:19:04 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testResponseIsNotEmpty()[pri:4, instance:test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3]" started-at="2025-01-09T13:19:04 GMT+03:00" name="testResponseIsNotEmpty" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseIsNotEmpty -->
+        <test-method signature="testBadCredentialsResponse()[pri:5, instance:test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3]" started-at="2025-01-09T13:19:04 GMT+03:00" name="testBadCredentialsResponse" finished-at="2025-01-09T13:19:04 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBadCredentialsResponse -->
+      </class> <!-- test._2_NegativeTests.Negative_2_CreateBooking_MissingValue -->
+      <class name="test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1]" started-at="2025-01-09T13:19:03 GMT+03:00" name="setupData" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testStatusCode()[pri:1, instance:test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testStatusCode" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method signature="testContentType()[pri:2, instance:test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testContentType" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method signature="testResponseTime()[pri:3, instance:test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testResponseTime" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testResponseIsNotEmpty()[pri:5, instance:test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testResponseIsNotEmpty" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseIsNotEmpty -->
+        <test-method signature="testBadCredentialsResponse()[pri:5, instance:test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1]" started-at="2025-01-09T13:19:03 GMT+03:00" name="testBadCredentialsResponse" finished-at="2025-01-09T13:19:03 GMT+03:00" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBadCredentialsResponse -->
+      </class> <!-- test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword -->
+    </test> <!-- C:/Users/hasan/IdeaProjects/bookingAPI -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

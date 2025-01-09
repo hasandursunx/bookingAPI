@@ -1,0 +1,460 @@
+<html>
+<head>
+<title>TestNG:  C:/Users/hasan/IdeaProjects/bookingAPI</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>C:/Users/hasan/IdeaProjects/bookingAPI</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>76/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 09 13:18:49 GMT+03:00 2025</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15354 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test._1_PositiveTest._6_DeleteBooking.testStatusCode()'><b>testStatusCode</b><br>Test class: test._1_PositiveTest._6_DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._6_DeleteBooking@598bd2ba</td></tr>
+<tr>
+<td title='test._1_PositiveTest._6_DeleteBooking.testCreatedMessage()'><b>testCreatedMessage</b><br>Test class: test._1_PositiveTest._6_DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._6_DeleteBooking@598bd2ba</td></tr>
+<tr>
+<td title='test.HappyPath.UpdateBooking()'><b>UpdateBooking</b><br>Test class: test.HappyPath</td>
+<td></td>
+<td>0</td>
+<td>test.HappyPath@6581dc0a</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testContentType()'><b>testContentType</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testLastname()'><b>testLastname</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testBookingDatesCheckIn()'><b>testBookingDatesCheckIn</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword.testContentType()'><b>testContentType</b><br>Test class: test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testResponseTime()'><b>testResponseTime</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test.HappyPath.PostBooking()'><b>PostBooking</b><br>Test class: test.HappyPath</td>
+<td></td>
+<td>1</td>
+<td>test.HappyPath@6581dc0a</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testFirstname()'><b>testFirstname</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test.HappyPath.CreateToken()'><b>CreateToken</b><br>Test class: test.HappyPath</td>
+<td></td>
+<td>2</td>
+<td>test.HappyPath@6581dc0a</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testFirstname()'><b>testFirstname</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testContentType()'><b>testContentType</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._1_PositiveTest._6_DeleteBooking.testResponseTime()'><b>testResponseTime</b><br>Test class: test._1_PositiveTest._6_DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._6_DeleteBooking@598bd2ba</td></tr>
+<tr>
+<td title='test._1_PositiveTest._6_DeleteBooking.testBookingBody()'><b>testBookingBody</b><br>Test class: test._1_PositiveTest._6_DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._6_DeleteBooking@598bd2ba</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testBookingDatesCheckOut()'><b>testBookingDatesCheckOut</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testBookingBody()'><b>testBookingBody</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testBookingBody()'><b>testBookingBody</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testResponseTime()'><b>testResponseTime</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testAdditionalNeeds()'><b>testAdditionalNeeds</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testLastname()'><b>testLastname</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testTotalPrice()'><b>testTotalPrice</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testBookingSchema()'><b>testBookingSchema</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test.HappyPath.GetBookingIds()'><b>GetBookingIds</b><br>Test class: test.HappyPath</td>
+<td></td>
+<td>1</td>
+<td>test.HappyPath@6581dc0a</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testBookingSchema()'><b>testBookingSchema</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testBookingDatesCheckOut()'><b>testBookingDatesCheckOut</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testFirstname()'><b>testFirstname</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._1_CreateToken.testResponseBody()'><b>testResponseBody</b><br>Test class: test._1_PositiveTest._1_CreateToken</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._1_CreateToken@58326051</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_2_CreateBooking_MissingValue.testResponseTime()'><b>testResponseTime</b><br>Test class: test._2_NegativeTests.Negative_2_CreateBooking_MissingValue</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testLastname()'><b>testLastname</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testAdditionalNeeds()'><b>testAdditionalNeeds</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testDepositpaid()'><b>testDepositpaid</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testLastname()'><b>testLastname</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testBookingSchema()'><b>testBookingSchema</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._1_CreateToken.testIsTokenString()'><b>testIsTokenString</b><br>Test class: test._1_PositiveTest._1_CreateToken</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._1_CreateToken@58326051</td></tr>
+<tr>
+<td title='test._1_PositiveTest._1_CreateToken.testContentType()'><b>testContentType</b><br>Test class: test._1_PositiveTest._1_CreateToken</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._1_CreateToken@58326051</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testResponseTime()'><b>testResponseTime</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test.HappyPath.DeleteBooking()'><b>DeleteBooking</b><br>Test class: test.HappyPath</td>
+<td></td>
+<td>0</td>
+<td>test.HappyPath@6581dc0a</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testBookingBody()'><b>testBookingBody</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testStatusCode()'><b>testStatusCode</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testDepositpaid()'><b>testDepositpaid</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testTotalPrice()'><b>testTotalPrice</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testTotalPrice()'><b>testTotalPrice</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_2_CreateBooking_MissingValue.testStatusCode()'><b>testStatusCode</b><br>Test class: test._2_NegativeTests.Negative_2_CreateBooking_MissingValue</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testContentType()'><b>testContentType</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword.testStatusCode()'><b>testStatusCode</b><br>Test class: test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_2_CreateBooking_MissingValue.testResponseIsNotEmpty()'><b>testResponseIsNotEmpty</b><br>Test class: test._2_NegativeTests.Negative_2_CreateBooking_MissingValue</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3</td></tr>
+<tr>
+<td title='test.HappyPath.GetBookingById()'><b>GetBookingById</b><br>Test class: test.HappyPath</td>
+<td></td>
+<td>0</td>
+<td>test.HappyPath@6581dc0a</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword.testBadCredentialsResponse()'><b>testBadCredentialsResponse</b><br>Test class: test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_2_CreateBooking_MissingValue.testContentType()'><b>testContentType</b><br>Test class: test._2_NegativeTests.Negative_2_CreateBooking_MissingValue</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._2_CreateBooking.testStatusCode()'><b>testStatusCode</b><br>Test class: test._1_PositiveTest._2_CreateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._2_CreateBooking@32c4e8b2</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testBookingBody()'><b>testBookingBody</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword.testResponseTime()'><b>testResponseTime</b><br>Test class: test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testBookingDatesCheckOut()'><b>testBookingDatesCheckOut</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test.HappyPath.PatchBooking()'><b>PatchBooking</b><br>Test class: test.HappyPath</td>
+<td></td>
+<td>0</td>
+<td>test.HappyPath@6581dc0a</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testBookingDatesCheckIn()'><b>testBookingDatesCheckIn</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._1_PositiveTest._6_DeleteBooking.testContentType()'><b>testContentType</b><br>Test class: test._1_PositiveTest._6_DeleteBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._6_DeleteBooking@598bd2ba</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testContentType()'><b>testContentType</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testTotalPrice()'><b>testTotalPrice</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testBookingDatesCheckIn()'><b>testBookingDatesCheckIn</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._1_CreateToken.testStatusCode()'><b>testStatusCode</b><br>Test class: test._1_PositiveTest._1_CreateToken</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._1_CreateToken@58326051</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testResponseTime()'><b>testResponseTime</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testBookingDatesCheckOut()'><b>testBookingDatesCheckOut</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._1_CreateToken.testResponseTime()'><b>testResponseTime</b><br>Test class: test._1_PositiveTest._1_CreateToken</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._1_CreateToken@58326051</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testDepositpaid()'><b>testDepositpaid</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testAdditionalNeeds()'><b>testAdditionalNeeds</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._1_CreateToken.testBookingBody()'><b>testBookingBody</b><br>Test class: test._1_PositiveTest._1_CreateToken</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._1_CreateToken@58326051</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testAdditionalNeeds()'><b>testAdditionalNeeds</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testBookingDatesCheckIn()'><b>testBookingDatesCheckIn</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testStatusCode()'><b>testStatusCode</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword.testResponseIsNotEmpty()'><b>testResponseIsNotEmpty</b><br>Test class: test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_1_CreateToken_InvalidUsernamePassword@5a755cc1</td></tr>
+<tr>
+<td title='test._1_PositiveTest._3_GetBooking.testStatusCode()'><b>testStatusCode</b><br>Test class: test._1_PositiveTest._3_GetBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._3_GetBooking@64bce832</td></tr>
+<tr>
+<td title='test._1_PositiveTest._5_PatchBooking.testFirstname()'><b>testFirstname</b><br>Test class: test._1_PositiveTest._5_PatchBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._5_PatchBooking@4c1f22f3</td></tr>
+<tr>
+<td title='test._2_NegativeTests.Negative_2_CreateBooking_MissingValue.testBadCredentialsResponse()'><b>testBadCredentialsResponse</b><br>Test class: test._2_NegativeTests.Negative_2_CreateBooking_MissingValue</td>
+<td></td>
+<td>0</td>
+<td>test._2_NegativeTests.Negative_2_CreateBooking_MissingValue@7ae42ce3</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testDepositpaid()'><b>testDepositpaid</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+<tr>
+<td title='test._1_PositiveTest._4_UpdateBooking.testBookingSchema()'><b>testBookingSchema</b><br>Test class: test._1_PositiveTest._4_UpdateBooking</td>
+<td></td>
+<td>0</td>
+<td>test._1_PositiveTest._4_UpdateBooking@764faa6</td></tr>
+</table><p>
+</body>
+</html>
