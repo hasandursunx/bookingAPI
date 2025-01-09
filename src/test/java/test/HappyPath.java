@@ -110,11 +110,11 @@ public class HappyPath {
 
     }
 
-    @Description("Tüm rezervasyon id")
+    @Description("Tüm rezervasyon id listeleme kontrolü")
     @Test(testName = "Tüm Rezervasyon Id leri listeleme kontrolü",priority = 4)
     public void GetBookingIds() {
         Response response = BookingEndPoints.readAllBookingIds();
-        response.then().log().body();
+
 
         Assert.assertEquals(response.getStatusCode(), 200, "Durum kodu 200");
         Assert.assertTrue(response.getTime() < 10000, "Response süresi kontrolü");
